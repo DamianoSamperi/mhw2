@@ -1,0 +1,75 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+  
+.choice-grid{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.choice-grid div{
+    box-sizing: border-box;
+    width: 32.5%; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    padding:10px;
+}
+div[data-choice-id="nerd"], div[data-choice-id="shy"], div[data-choice-id="sleepy"]{
+    margin-bottom: 20px;
+}
+img{
+   height:85%;
+}
+.choice-grid div.unchecked{
+    opacity: 0.6;
+}
+.choice-grid div.checked{
+    background-color: #cfe3ff;
+}
+.Hidden{
+    display: none;
+}
+footer{ 
+    display:flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    margin: 20px;
+}
+h1#titolo_personalità{
+    font-size:2em;
+    margin-bottom: 18px;
+}
+section#personalità{
+    margin-bottom: 18px;
+}
+button{
+    height: 50px;
+    background-color: #cecece;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
+@media(max-width:700px){
+    header div span {
+    display: none;
+    } 
+    article{
+        width:95%;
+    }
+}
+@media(max-width:500px){
+     .choice-grid div{
+         width:49%;
+     }
+}

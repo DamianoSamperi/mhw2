@@ -11,15 +11,12 @@
 .choice-grid div{
     box-sizing: border-box;
     width: 32.5%; 
-    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
     border: 1px solid #dcdcdc;
     padding:10px;
-}
-div[data-choice-id="nerd"], div[data-choice-id="shy"], div[data-choice-id="sleepy"]{
-    margin-bottom: 20px;
 }
 img{
    height:85%;

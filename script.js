@@ -66,7 +66,7 @@ function FindPersonality(){
     ID[0]=Answer[0];
     ID[1]=Answer[1]-9;
     ID[2]=Answer[2]-18;
-    if(ID[1]==ID[0]||ID[1]==ID[2])
+    if(ID[1]==ID[2])
         return ID[1];
     else
         return ID[0];
